@@ -1,0 +1,90 @@
+Description: remove irrelevant info from README.md 
+ MELPA and 'git clone' installation instructions are not relevant for a Debian
+ package that uses dh-elpa.  This patch adjusts them.  This patch also includes
+ various typo and clarity fixes which will be forwarded upstream; these should
+ be dropped from the patch when rebasing against the next upstream release.
+Author: Nicholas D Steeves <nsteeves@gmail.com>
+
+---
+Forwarded: no
+Last-Update: 2019-09-22
+ README.md | 50 ++++++++++----------------------------------------
+ 1 file changed, 10 insertions(+), 40 deletions(-)
+
+diff --git a/README.md b/README.md
+index c2a03fd..7b06f07 100644
+--- a/README.md
++++ b/README.md
+@@ -1,53 +1,28 @@
+ # color-theme-modern [![melpa badge][melpa-badge]][melpa-link] [![melpa stable badge][melpa-stable-badge]][melpa-stable-link]
+ 
+-This project replaces [color-theme](http://www.nongnu.org/color-theme/) with Emacs 24 theme framework.
++This project replaces [color-theme](http://www.nongnu.org/color-theme/) with Emacs ≥24 "deftheme" theme framework.
+ 
+-Please request by [issues](https://github.com/emacs-jp/replace-colorthemes/issues) if you want me to port your favarite theme of colorthemes.
++Please file requests to port your favourite colorthemes to deftheme [as a github issue on the project page.](https://github.com/emacs-jp/replace-colorthemes/issues)
+ 
+ ## Screenshot
+ 
+-Screenshots are [here](screenshots.md)
++Screenshots are [here (local Debian copy)](screenshots.md)
+ 
+ ## Installation
+ 
+-All themes are available on [MELPA](https://melpa.org/) and [MELPA stable](https://stable.melpa.org/)
++`sudo apt install elpa-color-theme-modern`
+ 
+-You can install `color-theme-modern` with the following command.
+-
+-<kbd>M-x package-install [RET] color-theme-modern [RET]</kbd>
+-
+-NOTE: Package name is different from repository name.
+-
+-
+-```
+- # Download your favorite theme ~/.emacs.d
+- % cd ~/.emacs.d
+- % curl -LO https://raw.githubusercontent.com/emacs-jp/replace-colorthemes/master/aalto-dark-theme.el
+-```
+-
+-And add theme configuration to you configuration file
++And add theme configuration to your configuration file
+ ```lisp
+ (load-theme 'aalto-dark t t)
+ (enable-theme 'aalto-dark)
+ ```
+ 
+-Or
+-
+-```
+- # Download all themes
+- % git clone https://github.com/emacs-jp/replace-colorthemes.git
+-```
+-
+-And add following code to your configuration file
+-```lisp
+-;; Please set your themes directory to 'custom-theme-load-path
+-(add-to-list 'custom-theme-load-path
+-             (file-name-as-directory "your cloned directory path"))
+-
+-;; load your favorite theme
+-(load-theme 'aalto-dark t t)
+-(enable-theme 'aalto-dark)
+-```
++`enable-theme` should be run after switching themes, to reinitialise
++any theme-related variables that aren't used by the chosen theme.  This
++is often needed to prevent ugly interactions between defthemes.  Running
++`enable-theme` after `load-theme` is not necessary for Emacs ≥ 26.1,
++where `enable-theme` is always called at the end of `load-theme`.
+ 
+ ## Ported themes
+ * [aalto-dark](screenshots.md#aalto-dark)
+@@ -160,8 +135,3 @@ And add following code to your configuration file
+ * [julie](screenshots.md#julie)
+ * [subdued](screenshots.md#subdued)
+ * [railscast](screenshots.md#railscast)
+-
+-[melpa-link]: https://melpa.org/#/color-theme-modern
+-[melpa-stable-link]: https://stable.melpa.org/#/color-theme-modern
+-[melpa-badge]: https://melpa.org/packages/color-theme-modern-badge.svg
+-[melpa-stable-badge]: https://stable.melpa.org/packages/color-theme-modern-badge.svg
