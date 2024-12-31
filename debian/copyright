@@ -1,22 +1,359 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: color-theme-modern
+Source: https://github.com/emacs-jp/replace-colorthemes
+Upstream-Contact: Syohei YOSHIDA <syohex@gmail.com>
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
+Copyright: 2013-2016  Syohei YOSHIDA
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2019-2022  Nicholas D Steeves <sten@debian.org>
+License: GPL-3+
+
+Files: aalto-dark-theme.el beige-diff-theme.el beige-eshell-theme.el
+       billw-theme.el blue-erc-theme.el blue-eshell-theme.el
+       blue-gnus-theme.el blue-sea-theme.el dark-erc-theme.el
+       dark-font-lock-theme.el dark-gnus-theme.el dark-info-theme.el
+       emacs-21-theme.el emacs-nw-theme.el fischmeister-theme.el
+       gnome-theme.el gnome2-theme.el goldenrod-theme.el
+       high-contrast-theme.el jonadabian-theme.el pok-wob-theme.el
+       pok-wog-theme.el renegade-theme.el retro-green-theme.el
+       retro-orange-theme.el robin-hood-theme.el ryerson-theme.el
+       salmon-diff-theme.el salmon-font-lock-theme.el
+       simple-1-theme.el sitaramv-nt-theme.el
+       sitaramv-solaris-theme.el standard-ediff-theme.el
+       standard-theme.el subtle-hacker-theme.el wheat-theme.el
+       xemacs-theme.el
+Copyright: 2005-2006  Brian Palmer <bpalmer@gmail.com>
+           2005-2006  Xavier Maillard <zedek@gnu.org>
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: aliceblue-theme.el bharadwaj-slate-theme.el bharadwaj-theme.el
+       gray30-theme.el marine-theme.el snowish-theme.el xp-theme.el
+Copyright: 2001, 2002  Girish Bharadwaj
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: gtk-ide-theme.el jedit-grey-theme.el midnight-theme.el
+       scintilla-theme.el
+Copyright: 2000  Gordon Messmer
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: dark-blue-theme.el dark-blue2-theme.el subtle-blue-theme.el
+Copyright: 2001, 2002  Chris McMahan
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: jsc-dark-theme.el jsc-light-theme.el jsc-light2-theme.el
+Copyright: 2000  John S Cooper
+           2001  John S Cooper
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: feng-shui-theme.el katester-theme.el matrix-theme.el
+Copyright: 2001, 2003  walterh@rocketmail.com
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: classic-theme.el infodoc-theme.el
+Copyright: 2000  Frederic Giroud
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: lawrence-theme.el
+Copyright: 2003  lawrence mitchell
+           2013  Syohei YOSHIDA
+License: CC0-and-or-GPL-3+
+ On Debian systems, the complete text of the Creative Commons CC0 1.0
+ Universal license (CC0-1.0) can be found in
+ "/usr/share/common-licenses/CC0-1.0".
+Comment: GPL-3+ is in effect.
+
+Files: railscast-theme.el
+Copyright: 2009  Oleg Shaldybin <oleg.shaldybin@gmail.com>
+           2014  Syohei YOSHIDA
+License: Expat
+
+Files: arjen-theme.el
+Copyright: 2001-2008 Arjen Wiersma
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: late-night-theme.el
+Copyright: 2002  Alex Schroeder
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: hober-theme.el
+Copyright: 1999-2000  Jonadab the Unsightly One <jonadab@bright.net>
+           2000-2003  Alex Schroeder <alex@gnu.org>
+           2003-2006  Xavier Maillard <zedek@gnu.org>
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: andreas-theme.el
+Copyright: 2003  Andreas Busch
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: taylor-theme.el
+Copyright: 2000  Art Taylor
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: calm-forest-theme.el
+Copyright: 2003  Artur Hefczyc
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: montz-theme.el
+Copyright: 2000  Brady Montz
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: julie-theme.el
+Copyright: 2011  Christian Brassat, Bozhidar Batsov
+           2014  Syohei YOSHIDA
+License: GPL-3+
+
+Files: marquardt-theme.el
+Copyright: 2000  Colin Marquardt
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: resolve-theme.el
+Copyright: 2002  Damien Elmes
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: pierson-theme.el
+Copyright: 2000  Dan L. Pierson
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: taming-mr-arneson-theme.el
+Copyright: 2001  Erik Arneson
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: whateveryouwant-theme.el
+Copyright: 2002  Fabien Penso
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: digital-ofs1-theme.el
+Copyright: 2001  Gareth Owen
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: lethe-theme.el
+Copyright: 2002  Ivica Loncar
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: aalto-light-theme.el
+Copyright: 2001  Jari Aalto
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: subdued-theme.el
+Copyright: 2009-2010  Jason R. Blevins <jrblevin@sdf.lonestar.org>
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: rotor-theme.el
+Copyright: 2000  Jinwei Shen
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: parus-theme.el
+Copyright: 2000  Jon K Hellank
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: jonadabian-slate-theme.el
+Copyright: 2001  Jonadab the Unsightly One
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: mistyday-theme.el
+Copyright: 2001  K.C. Hari Kumar
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: greiner-theme.el
+Copyright: 2000  Kevin Greiner
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: charcoal-black-theme.el
+Copyright: 2003  Lars Chr. Hausmann
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: dark-laptop-theme.el
+Copyright: 2001  Laurent Michel
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: ld-dark-theme.el
+Copyright: 2001  Linh Dang
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: comidia-theme.el
+Copyright: 2001  Marcelo Dias
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: vim-colors-theme.el
+Copyright: 2003  Michael Soulier
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: blue-mood-theme.el
+Copyright: 2002  Nelson Loyola
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: cobalt-theme.el
+Copyright: 2012  Nick Ewing
+           2014  Syohei YOSHIDA
+License: GPL-3+
+
+Files: snow-theme.el
+Copyright: 2001  Nicolas Rist
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: tty-dark-theme.el
+Copyright: 2001  Oivvio Polite
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: kingsajz-theme.el
+Copyright: 2001  Olgierd "Kingsajz" Ziolko
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: gray1-theme.el
+Copyright: 2001  Paul Pulli
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: raspopovic-theme.el
+Copyright: 2000  Pedja Raspopovic
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: clarity-theme.el
+Copyright: 2003  Richard Wellum
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: desert-theme.el
+Copyright: 2010-2011  Sergei Lebedev
+           2013  Syohei YOSHIDA
+License: GPL-3+
+Comment: Sergei Lebedev's copyright date range was established by examining
+ this history of his color-theme-desert project at
+ https://github.com/superbobry/color-theme-desert.  Sergei Lebedev's initial
+ commit message is "Initial commit (too bad I haven't started from a git repo)"
+ so it's possible that this file is older than 2010.
+
+Files: ramangalahy-theme.el
+Copyright: 2000  Solofo Ramangalahy
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: color-theme-modern.el
+Copyright: 2013-2016  Syohei YOSHIDA
+License: GPL-3+
+
+Files: word-perfect-theme.el
+Copyright: 2001  Thomas Gehrlein
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: blippblopp-theme.el
+Copyright: 2001  Thomas Sicheritz-Ponten
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: oswald-theme.el
+Copyright: 2001  Tom Oswald
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: deep-blue-theme.el
+Copyright: 2001  Tomas Cerha
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: dark-green-theme.el
+Copyright: 2002  ces93
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: jb-simple-theme.el
+Copyright: 2000  jeff
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: euphoria-theme.el
+Copyright: 2000  oGLOWo
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: black-on-gray-theme.el
+Copyright: 2002  sbhojwani
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+Files: shaman-theme.el
+Copyright: 2002  shaman
+           2013  Syohei YOSHIDA
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
+ the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
  .
- This package is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+ .
+ The above copyright notice and this permission notice shall
+ be included in all copies or substantial portions of the
+ Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
